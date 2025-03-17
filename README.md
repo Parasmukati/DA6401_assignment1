@@ -15,6 +15,9 @@ This project implements a custom neural network for classifying Fashion-MNIST im
 - **Hyperparameter Tuning with Wandb**
 - **Comprehensive Visualization and Analysis**
 
+## link:
+wandb link: https://api.wandb.ai/links/na21b051-indian-institute-of-technology-madras/blgf2sve
+
 ## Project Structure
 ```
 DA6401_assignment1/
