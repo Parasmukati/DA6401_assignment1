@@ -15,7 +15,8 @@
 - Comprehensive Visualization and Analysis
 
 ## Project Structure
-neural_network_assignment/
+```
+DA6401_assignment1/
 │
 ├── models/
 │   ├── neural_network.py   # Neural network implementation
@@ -30,7 +31,7 @@ neural_network_assignment/
 ├── confusion_matrix.py      # Confusion matrix visualization
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
-
+```
 
 ## Training the Model
 1. Standard Training:
