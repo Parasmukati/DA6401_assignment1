@@ -1,18 +1,19 @@
 # Neural Network Implementation for Fashion-MNIST Classification
 
-## Features
+This project implements a custom neural network for classifying Fashion-MNIST images. It includes multiple optimization algorithms, hyperparameter tuning, and visualization tools.
 
-- Custom Neural Network Implementation
-- Multiple Optimization Algorithms
+## Features
+- **Custom Neural Network Implementation**
+- **Multiple Optimization Algorithms:**
   - Stochastic Gradient Descent (SGD)
   - Momentum
   - Nesterov Accelerated Gradient (NAG)
   - RMSprop
   - Adam
   - NAdam
-- Flexible Network Architecture
-- Hyperparameter Tuning with Wandb
-- Comprehensive Visualization and Analysis
+- **Flexible Network Architecture**
+- **Hyperparameter Tuning with Wandb**
+- **Comprehensive Visualization and Analysis**
 
 ## Project Structure
 ```
@@ -34,71 +35,64 @@ DA6401_assignment1/
 ```
 
 ## Training the Model
-1. Standard Training:
-    python train.py
-
-2. Custom Configuration:
-    python train.py --optimizer adam --learning_rate 0.001 --num_layers 3 --hidden_size 128
-
-3. Hyperparameter Sweep
-    python train.py sweep
-
-4. Confusion Matrix Visualization
-    python confusion_matrix.py
+- **Standard Training:**
+  ```bash
+  python train.py
+  ```
+- **Custom Configuration:**
+  ```bash
+  python train.py --optimizer adam --learning_rate 0.001 --num_layers 3 --hidden_size 128
+  ```
+- **Hyperparameter Sweep:**
+  ```bash
+  python train.py sweep
+  ```
+- **Confusion Matrix Visualization:**
+  ```bash
+  python confusion_matrix.py
+  ```
 
 ## Hyperparameter Configuration
 The project supports extensive hyperparameter tuning:
-
-Epochs: 5, 10
-Hidden Layers: 3, 4, 5
-Hidden Layer Size: 32, 64, 128
-Weight Decay: 0, 0.0005, 0.5
-Learning Rate: 1e-3, 1e-4
-Optimizers:
-SGD
-Momentum
-Nesterov Accelerated Gradient
-RMSprop
-Adam
-NAdam
-Batch Size: 16, 32, 64
-Weight Initialization: Random, Xavier
-Activation Functions: Sigmoid, Tanh, ReLU
+- **Epochs:** 5, 10
+- **Hidden Layers:** 3, 4, 5
+- **Hidden Layer Size:** 32, 64, 128
+- **Weight Decay:** 0, 0.0005, 0.5
+- **Learning Rate:** 1e-3, 1e-4
+- **Optimizers:** SGD, Momentum, Nesterov Accelerated Gradient, RMSprop, Adam, NAdam
+- **Batch Size:** 16, 32, 64
+- **Weight Initialization:** Random, Xavier
+- **Activation Functions:** Sigmoid, Tanh, ReLU
 
 ## Wandb Integration
-The project uses Weights & Biases (Wandb) for:
-
-Experiment tracking
-Hyperparameter optimization
-Result visualization
-Performance comparison
+The project uses **Weights & Biases (Wandb)** for:
+- Experiment tracking
+- Hyperparameter optimization
+- Result visualization
+- Performance comparison
 
 ## Key Implementations
-Neural Network
+### Neural Network
+- Flexible architecture
+- Manual backpropagation
+- Multiple activation functions
 
-Flexible architecture
-Manual backpropagation
-Multiple activation functions
-Optimizers
+### Optimizers
+- Implemented from scratch
+- Support for various optimization algorithms
 
-Implemented from scratch
-Support for various optimization algorithms
-Visualization
+### Visualization
+- Confusion matrix
+- Performance metrics
+- Hyperparameter importance
 
-Confusion matrix
-Performance metrics
-Hyperparameter importance
-
-## Requirement
-Fashion-MNIST Dataset
-Weights & Biases
-NumPy
-Matplotlib
-Scikit-learn
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-wandb
-keras
+## Requirements
+The project depends on the following libraries:
+- Fashion-MNIST Dataset
+- Weights & Biases (wandb)
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Pandas
+- Seaborn
+- Keras
