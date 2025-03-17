@@ -1,0 +1,15 @@
+{"time":"2025-03-10T15:36:46.649142+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/parasmukati/DA6401/wandb/run-20250310_153646-uhs9me53/logs/debug-core.log"}
+{"time":"2025-03-10T15:36:46.762274+05:30","level":"INFO","msg":"created new stream","id":"uhs9me53"}
+{"time":"2025-03-10T15:36:46.76245+05:30","level":"INFO","msg":"stream: started","id":"uhs9me53"}
+{"time":"2025-03-10T15:36:46.762529+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"uhs9me53"}
+{"time":"2025-03-10T15:36:46.762747+05:30","level":"INFO","msg":"handler: started","stream_id":"uhs9me53"}
+{"time":"2025-03-10T15:36:46.762717+05:30","level":"INFO","msg":"sender: started","stream_id":"uhs9me53"}
+{"time":"2025-03-10T15:36:51.046969+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T15:36:52.906705+05:30","level":"INFO","msg":"stream: closing","id":"uhs9me53"}
+{"time":"2025-03-10T15:36:52.907034+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T15:36:52.908141+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T15:36:54.164535+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T15:36:54.574626+05:30","level":"INFO","msg":"sender: closed","stream_id":"uhs9me53"}
+{"time":"2025-03-10T15:36:54.574603+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"uhs9me53"}
+{"time":"2025-03-10T15:36:54.574599+05:30","level":"INFO","msg":"handler: closed","stream_id":"uhs9me53"}
+{"time":"2025-03-10T15:36:54.574946+05:30","level":"INFO","msg":"stream: closed","id":"uhs9me53"}

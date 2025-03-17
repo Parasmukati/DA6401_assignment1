@@ -1,0 +1,3 @@
+Dataset shapes:
+Training set: (60000, 28, 28)
+Test set: (10000, 28, 28)

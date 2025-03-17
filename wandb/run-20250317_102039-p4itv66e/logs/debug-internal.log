@@ -1,0 +1,17 @@
+{"time":"2025-03-17T10:20:39.583151+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/parasmukati/DA6401/wandb/run-20250317_102039-p4itv66e/logs/debug-core.log"}
+{"time":"2025-03-17T10:20:39.696152+05:30","level":"INFO","msg":"created new stream","id":"p4itv66e"}
+{"time":"2025-03-17T10:20:39.696224+05:30","level":"INFO","msg":"stream: started","id":"p4itv66e"}
+{"time":"2025-03-17T10:20:39.696241+05:30","level":"INFO","msg":"handler: started","stream_id":"p4itv66e"}
+{"time":"2025-03-17T10:20:39.696575+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"p4itv66e"}
+{"time":"2025-03-17T10:20:39.696739+05:30","level":"INFO","msg":"sender: started","stream_id":"p4itv66e"}
+{"time":"2025-03-17T10:20:43.854592+05:30","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-17T10:20:43.855381+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}]}"}
+{"time":"2025-03-17T10:20:44.860329+05:30","level":"INFO","msg":"stream: closing","id":"p4itv66e"}
+{"time":"2025-03-17T10:20:44.861447+05:30","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-03-17T10:20:45.283771+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-17T10:20:45.284507+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project myname/myprojectname not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-03-17T10:20:45.287543+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T10:20:45.287685+05:30","level":"INFO","msg":"handler: closed","stream_id":"p4itv66e"}
+{"time":"2025-03-17T10:20:45.287702+05:30","level":"INFO","msg":"sender: closed","stream_id":"p4itv66e"}
+{"time":"2025-03-17T10:20:45.287684+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"p4itv66e"}
+{"time":"2025-03-17T10:20:45.288016+05:30","level":"INFO","msg":"stream: closed","id":"p4itv66e"}

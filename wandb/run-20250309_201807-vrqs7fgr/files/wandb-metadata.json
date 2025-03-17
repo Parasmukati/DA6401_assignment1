@@ -1,0 +1,40 @@
+{
+  "os": "macOS-15.2-arm64-arm-64bit",
+  "python": "CPython 3.12.4",
+  "startedAt": "2025-03-09T14:48:07.875787Z",
+  "program": "/Users/parasmukati/DA6401/A_1.py",
+  "codePath": "A_1.py",
+  "email": "na21b051@smail.iitm.ac.in",
+  "root": "/Users/parasmukati/DA6401",
+  "host": "paras-MacBook-Air.local",
+  "executable": "/opt/anaconda3/bin/python",
+  "codePathLocal": "A_1.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "215452073984"
+    },
+    "/System/Volumes/Data": {
+      "total": "245107195904",
+      "used": "215452073984"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Apple M1",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 7,
+    "memoryGb": 8,
+    "swapTotalBytes": "9663676416",
+    "ramTotalBytes": "8589934592"
+  }
+}
