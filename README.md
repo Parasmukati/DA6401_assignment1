@@ -18,18 +18,18 @@
 neural_network_assignment/
 │
 ├── models/
-│ ├── neural_network.py # Neural network implementation
-│ └── optimizers.py # Optimization algorithms
+│   ├── neural_network.py   # Neural network implementation
+│   └── optimizers.py       # Optimization algorithms
 │
 ├── utils/
-│ ├── data_loader.py # Data preprocessing
-│ ├── activations.py # Activation functions
-│ └── losses.py # Loss function implementations
+│   ├── data_loader.py      # Data preprocessing
+│   ├── activations.py      # Activation functions
+│   └── losses.py           # Loss function implementations
 │
-├── train.py # Main training script
-├── confusion_matrix.py # Confusion matrix visualization
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
+├── train.py                # Main training script
+├── confusion_matrix.py      # Confusion matrix visualization
+├── requirements.txt        # Project dependencies
+└── README.md               # Project documentation
 
 
 ## Training the Model
